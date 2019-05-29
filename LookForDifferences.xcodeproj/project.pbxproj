@@ -14,7 +14,6 @@
 		5FBAC2A4229A0141000BA877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBAC2A2229A0141000BA877 /* LaunchScreen.storyboard */; };
 		5FBAC2AC229AD613000BA877 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC2AB229AD613000BA877 /* RoundedButton.swift */; };
 		5FBAC2AE229AF455000BA877 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC2AD229AF455000BA877 /* MainViewController.swift */; };
-		5FEEEAF4229AFCE4000D2C82 /* 200.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5FEEEAF3229AFCE4000D2C82 /* 200.gif */; };
 		5FEEEAF6229B823F000D2C82 /* MyUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEEEAF5229B823F000D2C82 /* MyUIButton.swift */; };
 		5FEEEAFA229B8A76000D2C82 /* ScaleSegueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEEEAF9229B8A76000D2C82 /* ScaleSegueAnimation.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		5FBAC2A5229A0141000BA877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FBAC2AB229AD613000BA877 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		5FBAC2AD229AF455000BA877 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		5FEEEAF3229AFCE4000D2C82 /* 200.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 200.gif; path = ../../../Downloads/200.gif; sourceTree = "<group>"; };
 		5FEEEAF5229B823F000D2C82 /* MyUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIButton.swift; sourceTree = "<group>"; };
 		5FEEEAF9229B8A76000D2C82 /* ScaleSegueAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegueAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,6 @@
 				5FEEEAF9229B8A76000D2C82 /* ScaleSegueAnimation.swift */,
 				5FBAC2AD229AF455000BA877 /* MainViewController.swift */,
 				5FBAC2A0229A0141000BA877 /* Assets.xcassets */,
-				5FEEEAF3229AFCE4000D2C82 /* 200.gif */,
 				5FBAC2A2229A0141000BA877 /* LaunchScreen.storyboard */,
 				5FBAC2A5229A0141000BA877 /* Info.plist */,
 				5FBAC2AB229AD613000BA877 /* RoundedButton.swift */,
@@ -138,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBAC2A4229A0141000BA877 /* LaunchScreen.storyboard in Resources */,
-				5FEEEAF4229AFCE4000D2C82 /* 200.gif in Resources */,
 				5FBAC2A1229A0141000BA877 /* Assets.xcassets in Resources */,
 				5FBAC29F229A0140000BA877 /* Main.storyboard in Resources */,
 			);
