@@ -199,7 +199,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" "/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="QRR-aL-PeA"/>
+                                    <action selector="easyKeHome:" destination="UMr-Vi-eeb" eventType="touchUpInside" id="EKC-44-8f8"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="keHomeDariEasy" id="QRR-aL-PeA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -208,6 +209,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N8U-QO-65c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UMr-Vi-eeb" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3139" y="-891"/>
         </scene>
@@ -316,7 +318,7 @@
         <!--View Controller-->
         <scene sceneID="3nV-Mb-jy8">
             <objects>
-                <viewController id="tJj-XX-2ax" sceneMemberID="viewController">
+                <viewController id="tJj-XX-2ax" customClass="ViewController" customModule="LookForDifferences" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ofX-Pk-KDf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,21 +328,31 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHh-Ge-jVu">
-                                <rect key="frame" x="272" y="422" width="54" height="52"/>
+                                <rect key="frame" x="276" y="429" width="54" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" "/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce5-Sk-0Yd">
+                                <rect key="frame" x="272" y="437" width="63" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" "/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="krx-P5-de9"/>
+                                    <action selector="do:" destination="a2x-mz-rET" eventType="touchUpInside" id="HEj-HM-Qhd"/>
+                                    <action selector="do:" destination="tJj-XX-2ax" eventType="touchUpInside" id="srZ-NG-ix9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lEE-y5-E1V"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="keHome" id="k5y-wC-zx6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmN-mz-Jp7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="a2x-mz-rET" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3137.68115942029" y="132.58928571428572"/>
+            <point key="canvasLocation" x="-1362.3188405797102" y="478.79464285714283"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XW5-no-xD4">
@@ -474,6 +486,6 @@
         <image name="med4" width="828" height="1792"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3Kq-6w-wDS"/>
+        <segue reference="QRR-aL-PeA"/>
     </inferredMetricsTieBreakers>
 </document>
